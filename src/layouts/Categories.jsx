@@ -3,7 +3,7 @@ import {Menu} from 'semantic-ui-react'
 export default function Categories() {
     return ( 
         <div >
-             <Menu pointing vertical style={ {marginTop: '3px', marginLeft:"5px"}} >
+             <Menu pointing vertical style={ {marginTop: '10px', marginLeft:"5px"}} >
                 <Menu.Item
                 name='home'
                 

@@ -2,9 +2,9 @@
     text-align: center;
 }
 
-.ui.container.main {
+.ui.main.container {
     margin-top: 3em;
 }
-.ui.container.table {
+.ui.table.container {
     margin-top: 3em;
 }
