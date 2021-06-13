@@ -1,6 +1,6 @@
 import React from 'react';
-
-import { Button, Dropdown, Menu,Container } from 'semantic-ui-react'
+import CartSummary from './CartSummary';
+import { Button, Menu,Container } from 'semantic-ui-react'
 export default function Navi() {
     return (
         <div>
@@ -16,14 +16,7 @@ export default function Navi() {
                     />
 
                     <Menu.Menu position='right'>
-                        <Dropdown item text='Language'>
-                            <Dropdown.Menu>
-                                <Dropdown.Item>English</Dropdown.Item>
-                                <Dropdown.Item>Russian</Dropdown.Item>
-                                <Dropdown.Item>Spanish</Dropdown.Item>
-                            </Dropdown.Menu>
-                        </Dropdown>
-
+                        <CartSummary/>
                         <Menu.Item>
                             <Button primary>Sign Up</Button>
                         </Menu.Item>
